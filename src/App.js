@@ -11,7 +11,7 @@ const App = () => {
   const [movies, setMovies] = useState([]);
 
   useEffect(() => {
-    searchMovies("Harry Potter");
+    searchMovies("batman");
   }, []);
 
   const searchMovies = async (title) => {
@@ -25,7 +25,7 @@ const App = () => {
   return (
     <div className="app">
       <h1>MovieLand</h1>
-     
+
       <div className="search">
         <input
           value={searchTerm}
