@@ -8,6 +8,8 @@ This is a React project that allows users to search for movies using the Open Mo
 - Displays movie posters, release date, and title.
 - Fetches movie data from the OMDb API.
 
+## Live Link : [click me](https://movie-land-lovat.vercel.app/)
+
 ## Technologies Used
 
 - React
