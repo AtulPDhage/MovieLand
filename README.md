@@ -1,75 +1,75 @@
-<<<<<<< HEAD
-# Getting Started with Create React App
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-=======
 # MovieLand
-A movie Website for searching Movies
->>>>>>> 21b86ac4d4c23a2420ff652c74ef4b6ecefa6025
+
+This is a React project that allows users to search for movies using the Open Movie Database (OMDb) API and displays information about the movies in a visually appealing manner.
+
+## Features
+
+- Search for movies by entering keywords in the search input field.
+- Displays movie posters, release date, and title.
+- Fetches movie data from the OMDb API.
+
+## Technologies Used
+
+- React
+- JavaScript (ES6+)
+- HTML
+- CSS
+- OMDb API
+
+## Setup
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/your-username/movie-search-react.git
+   ```
+
+2. Navigate to the project directory:
+
+   ```bash
+   cd movie-search-react
+   ```
+
+3. Install dependencies:
+
+   ```bash
+   npm install
+   ```
+
+4. Create an account on [OMDb API](http://www.omdbapi.com/apikey.aspx) to obtain an API key.
+
+5. Create a `.env` file in the root directory of the project and add your API key:
+
+   ```plaintext
+   REACT_APP_API_KEY=your-api-key-goes-here
+   ```
+
+6. Start the development server:
+
+   ```bash
+   npm start
+   ```
+
+7. Open your browser and navigate to `http://localhost:3000` to view the application.
+
+## Usage
+
+- Enter keywords related to the movie you want to search for in the search input field.
+- Press the Enter key or click the search button.
+- View the search results displayed as movie cards, each containing the poster, release date, and title of the movie.
+
+## Contributing
+
+Contributions are welcome! If you have any suggestions, improvements, or feature requests, feel free to open an issue or create a pull request.
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+## Acknowledgements
+
+- Thanks to the creators of React for providing an efficient library for building user interfaces.
+- Thanks to the team behind OMDb API for providing access to movie data.
+- Special thanks to all contributors who helped improve this project.
+  
+---
